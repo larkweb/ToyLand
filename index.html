@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toyland</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">
+                <img src="assets/img/toyland.png" alt="">
+            </a>
+            <i class='bx bx-shopping-bag' id="cart-icon">
+                <span id="cart-count">0</span>
+            </i>
+            <div class="cart">
+                <h2 class="cart-title">
+                    Tu pedido
+                </h2>
+                <div class="cart-content">
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <button type="button" class="btn-buy" id="order-button">Hacer pedido</button>
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    <!-- shop -->
+    <section class="home" id="home">
+        <div class="home__container bd-grid">
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <div class="home__data">
+                        <span class="home__new">Descubre los</span>
+                        <h1 class="home__title">Mejores Juguetes<br>Infantiles</h1>
+                        <p class="home__description">Explora una amplia gama de juguetes <br> para niños de todas las
+                            edades. <br>
+                            Encuentra diversión y aprendizaje en un solo lugar.</p>
+                        <a class="btn">Baja y Explora</a>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+    </section>
+    <section class="shop container">
+        <h2 class="section-title">Descubre Juguetes Únicos</h2>
+        <div class="shop-content">
+
+            <div class="product-box">
+                <img src="assets/img/producto1.jpg" alt="" class="product-img">
+                <h2 class="product-title">Bloques de construcción</h2>
+                <span class="price">$140000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- box2 -->
+            <div class="product-box">
+                <img src="assets/img/producto2.webp" alt="" class="product-img">
+                <h2 class="product-title">Rompecabezas</h2>
+                <span class="price">$50000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- box3 -->
+            <div class="product-box">
+                <img src="assets/img/producto3.webp" alt="" class="product-img">
+                <h2 class="product-title">Juego de memoria</h2>
+                <span class="price">$60000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- box4 -->
+            <div class="product-box">
+                <img src="assets/img/producto4.png" alt="" class="product-img">
+                <h2 class="product-title">Libros interactivos</h2>
+                <span class="price">$45000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- box5 -->
+            <div class="product-box">
+                <img src="assets/img/producto5.jpg" alt="" class="product-img">
+                <h2 class="product-title">Kit de ciencias</h2>
+                <span class="price">$140000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+
+            <!-- box6 -->
+            <div class="product-box">
+                <img src="assets/img/producto6.jpg" alt="" class="product-img">
+                <h2 class="product-title">Ajedrez</h2>
+                <span class="price">$80000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- box7 -->
+            <div class="product-box">
+                <img src="assets/img/producto7.webp" alt="" class="product-img">
+                <h2 class="product-title">Twister</h2>
+                <span class="price">$100000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- box8 -->
+            <div class="product-box">
+                <img src="assets/img/producto8.jpeg" alt="" class="product-img">
+                <h2 class="product-title">play-doh dentista</h2>
+                <span class="price">$100000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- box9 -->
+            <div class="product-box">
+                <img src="assets/img/producto9.jpeg" alt="" class="product-img">
+                <h2 class="product-title">Operando</h2>
+                <span class="price">$150000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- box10 -->
+            <div class="product-box">
+                <img src="assets/img/producto10.jpg" alt="" class="product-img">
+                <h2 class="product-title">Jenga</h2>
+                <span class="price">$80000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- box11 -->
+            <div class="product-box">
+                <img src="assets/img/producto11.webp" alt="" class="product-img">
+                <h2 class="product-title">Monopoly</h2>
+                <span class="price">$150000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- box12 -->
+            <div class="product-box">
+                <img src="assets/img/producto12.jpg" alt="" class="product-img">
+                <h2 class="product-title">¿Quién es quién?</h2>
+                <span class="price">$70000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="redes">
+            <a><i class="fab fa-facebook-f"></i></a>
+            <a><i class="fab fa-instagram"></i></a>
+            <a><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
